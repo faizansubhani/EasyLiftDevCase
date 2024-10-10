@@ -2,7 +2,7 @@ tableextension 50100 "Sales Header EXT RIT" extends "Sales Header"
 {
     fields
     {
-        field(50100; "Certificate Reference No. RIT"; Code[50])
+        field(50100; "Certificate Reference No. RIT"; Code[20])
         {
             Caption = 'Certificate Reference No.';
         }
